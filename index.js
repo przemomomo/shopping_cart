@@ -24,15 +24,11 @@ function renderProdcuts() {
                     <div class="plus border" onclick="renderProductAmount(${product.id})">+</div>
                     <div class="minus" onclick="changeNumberOfUnits('minus', ${product.id})">-</div>
                     </div>
-                    <div class="purchase-container" onclick= "addToCart(${product.id},${product.amount},'${product.brand}')">KUP</div>
-
-                </div>
-
-            </div>
-
-
-          `;
-       
+                    < div class = "purchase-container"
+                    onclick = "addToCart(${product.id},${product.amount},'${product.brand}')" > KUP < /div>
+                < /div>
+            < /div>
+          `;  
     });
 
      
@@ -50,10 +46,6 @@ function renderProductAmount(id){
 
     renderProdcuts()
     
-
-
-
-
 }
 
 
