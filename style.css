@@ -1,0 +1,37 @@
+*{
+    background-color: cadetblue;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.col{
+    flex-direction: column;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Rubik;
+  }
+
+
+.shop-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+/* .container{
+    display: flex;
+    direction: column;
+} */
+.border{
+    border-color: black;
+    /* border-radius: .375rem; */
+    border-style: solid;
+    border-width: .125rem;
+
+}
